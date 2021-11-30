@@ -6,7 +6,6 @@ import androidx.room.PrimaryKey
 
 @Entity(tableName = "blogs")
 data class BlogCacheEntity(
-
     @PrimaryKey(autoGenerate = false)
     @ColumnInfo(name = "id")
     var id: Int,
